@@ -1,0 +1,175 @@
+body{
+    font: Arial,Helvetica,sans-serif;
+}
+#container {
+width:1050px;
+/*border:1px solid grey;*/
+margin: 0 auto;
+}
+
+#header{
+    height:100px;
+    padding: 10px 0;
+}
+
+#brand {
+    float: left;
+}
+
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color:purple;
+    text-decoration: none;
+    
+
+}
+#searchbox{
+    float: right;
+    background: linear-gradient(#cccc00,#ccffcc);
+    background: -webkit-linear-gradient(#cccc00,#ccffcc);
+    background: -o-linear-gradient(#cccc00,#ccffcc);
+    background: -moz-linear-gradient(#cccc00,#ccffcc);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top:20px;
+}
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: 	purple;
+    background: white url(images/Logo.jpg) right center no-repeat;
+    border:1.5px solid #c8d03e;
+
+
+
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color:white;
+    background:#f391f6f5;
+    font-size: 15px;
+}
+.clear{
+    clear: both;
+}
+ul{
+    list-style: none;
+
+}
+#menu{
+     height: 70px;
+     background: linear-gradient(#E5F2BB, #B7E952);
+     background: -webkit-linear-gradient(#E5F2BB, #B7E952);
+     background: -o-linear-gradient(#E5F2BB, #B7E952);
+     background: -moz-linear-gradient(#E5F2BB, #B7E952);
+    padding: 7px 0;
+
+}
+#menu ul li {
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid blueviolet;
+    
+}
+#menu ul li:last-child{
+    border-right:none;
+}
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: 	rgb(222, 34, 247);
+    line-height: 30px;
+    -webkit-transition:font-ize 0.3s ease;
+    -moz-transition:font-ize 0.3s ease;
+    -o-transition:font-ize 0.3s ease;
+    -ms-transition:font-ize 0.3s ease;
+    transition:font-ize 0.3s ease;
+
+}
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color:	rgb(222, 34, 247)	
+}
+#introduction {
+    background: linear-gradient(#E5F2BB, #B7E952);
+    background: -webkit-linear-gradient(#E5F2BB, #B7E952);
+    background: -moz-linear-gradient(#E5F2BB, #B7E952);
+    background: -o-linear-gradient(#E5F2BB, #B7E952);
+    padding: 30px;
+    margin:16px 0;
+}
+#introduction h3{
+    font-size: 45px;
+    color: #316901;
+    font-weight:normal;
+}
+#introduction p{
+    font-size: 25px;
+    color:#628F19;
+    text-align:justify;
+}
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border:1px solid #B7E952;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.sidebar h3{
+    color:#b314db;
+    font-size: 30px;
+}
+.sidebar ul{
+    padding-top: 8px;
+}
+#leftsidebar ul li{
+    padding: 4px 0 4px 11px;
+    list-style-image: url(images/curvedarrow.png);
+}
+    
+#rightsidebar ul li{
+padding: 12px 0 12px 40px;
+background: url(images/check.png) no-repeat left center;
+}
+
+
+.sidebar ul li a {
+  text-decoration: none;
+  font-size:20px;
+  color: #5d12e7;
+  -webkit-transition:font-ize 0.3s ease;
+    -moz-transition:font-ize 0.3s ease;
+    -o-transition:font-ize 0.3s ease;
+    -ms-transition:font-ize 0.3s ease;
+    transition:font-ize 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active {
+    text-decoration: none;
+    color:#b314db;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+#leftsidebar{
+    float: left;
+}
+#rightsidebar{
+    float: right;
+}
+.footer{
+    height:60px;
+    background: linear-gradient(#f6f390, #d5d533);
+    padding: 10px 30px;
+}
